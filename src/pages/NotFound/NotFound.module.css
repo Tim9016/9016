@@ -1,0 +1,27 @@
+.page {
+  text-align: center;
+  padding: 100px var(--spacing-md);
+}
+
+.page h1 {
+  font-size: 5rem;
+  margin: 0;
+  color: var(--color-primary);
+}
+
+.page p {
+  font-size: 1.2rem;
+  color: var(--color-text-secondary);
+  margin: var(--spacing-sm) 0 var(--spacing-lg);
+}
+
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
