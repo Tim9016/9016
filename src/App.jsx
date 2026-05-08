@@ -10,7 +10,7 @@ import styles from './App.module.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/9016">
       <div className={styles.app}>
         <Header />
         <main className={styles.main}>
